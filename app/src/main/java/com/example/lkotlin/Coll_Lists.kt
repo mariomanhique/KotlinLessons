@@ -21,7 +21,6 @@ fun main(){
     col.removeAt(1)
     col.remove("Blue") //since blue is duplicated, it will remove the first blue only!
 
-
     val animal = listOf("Dog","Cat","Cow","Lion","Lion")
     println(animal.size)
     println(animal.contains("Cat"))
@@ -31,12 +30,9 @@ fun main(){
     println(animal.indexOf("Cow"))
     println(animal.lastIndexOf("Lion"))
 
-
     val printColors= listOf("Red","Blue","Green")
     val availableColors= listOf("Red","Blue")
     println("Is the printer able to print? ${availableColors.containsAll(printColors)}")
-
-
 
     val customers= arrayListOf("Joao","Mario","Manhique","Nicolas","Mario")
     customers.add("Ernesto")
@@ -48,7 +44,6 @@ fun main(){
     val subCustomers=customers.subList(1,2)
     println(subCustomers)
     println(customers.isEmpty())
-
 
 
 }
